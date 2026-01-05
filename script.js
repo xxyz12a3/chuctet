@@ -151,7 +151,7 @@ document.addEventListener("DOMContentLoaded", function () {
     function draw() {
       // clear
       var img = new Image();
-      img.src = "image/tet.jpg";
+      img.src = "tet.jpg";
   
       img.onload = function () {
         ctx.globalCompositeOperation = "source-over";
@@ -208,4 +208,5 @@ document.addEventListener("DOMContentLoaded", function () {
   
     loop();
   });
+
   
